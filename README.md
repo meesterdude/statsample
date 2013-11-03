@@ -2,12 +2,9 @@
 
 http://ruby-statsample.rubyforge.org/
 
-
-## DESCRIPTION:
-
 A suite for basic and advanced statistics on Ruby. Tested on Ruby 1.8.7, 1.9.1, 1.9.2 (April, 2010), ruby-head(June, 2011) and JRuby 1.4 (Ruby 1.8.7 compatible).
 
-Include:
+### Includes
 * Descriptive statistics: frequencies, median, mean, standard error, skew, kurtosis (and many others).
 * Imports and exports datasets from and to Excel, CSV and plain text files.
 * Correlations: Pearson's r, Spearman's rank correlation (rho), point biserial, tau a, tau b and  gamma.  Tetrachoric and Polychoric correlation provides by +statsample-bivariate-extension+ gem.
@@ -38,7 +35,7 @@ Include:
   * Go beyond Null Hiphotesis Testing, using confidence intervals and effect sizes when possible
   * (When possible) All references for methods are documented, providing sensible information on documentation 
 
-## FEATURES:
+## FEATURES
 
 * Classes for manipulation and storage of data:
   * Statsample::Vector: An extension of an array, with statistical methods like sum, mean and standard deviation
@@ -132,9 +129,9 @@ See multiples examples of use on [http://github.com/clbustos/statsample/tree/mas
     Statsample::Analysis.run_batch # Echo output to console
 
 
-## REQUIREMENTS:
+## REQUIREMENTS
 
-Optional: 
+### Optional
 
 * Plotting: gnuplot and rbgnuplot, SVG::Graph
 * Factorial analysis and polychorical correlation(joint estimate and polychoric series): gsl library and rb-gsl (http://rb-gsl.rubyforge.org/). You should install it using <tt>gem install gsl</tt>. 
@@ -148,7 +145,7 @@ Optional:
 * Bug report and feature request: http://github.com/clbustos/statsample/issues
 * E-mailing list: http://groups.google.com/group/statsample
 
-## INSTALL:
+## INSTALL
 
   $ sudo gem install statsample
 
@@ -170,6 +167,6 @@ Available setup.rb file
 
   sudo gem ruby setup.rb
 
-## LICENSE:
+## LICENSE
 
 GPL-2 (See LICENSE.txt)
